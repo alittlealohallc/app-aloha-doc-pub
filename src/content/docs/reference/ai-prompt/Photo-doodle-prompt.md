@@ -1,0 +1,6 @@
+```
+A professional 3x3 collage featuring the same woman photographed from the reference image with normal hair and eyeglasses from a top-down perspective on a soft white textured blanket. The woman appears in nine different creative scenes. Each panel contains hand-drawn black doodle illustrations interacting with her pose. Bright natural lighting, clean white background, high-end lifestyle photography, ultra-sharp details, magazine-quality composition, playful storytelling, realistic human proportions, consistent facial features across all nine panels.
+Panel 1 (Athlete):The young woman wears a sporty white crop top, black athletic shorts, and running shoes. She is captured mid-jump as if leaping over a hand-drawn hurdle obstacle. Dynamic action pose, energetic expression.
+Panel 2 (Circus Performer): The woman wears a red circus-inspired outfit with gold accents. She balances on one foot atop a hand-drawn circus drum while raising both hands for balance. Cheerful confident smile.
+Panel 3 (Ice Cream Lover): The woman wears a pastel pink summer dress and white sneakers. She sits between two hand-drawn café chairs while holding a large doodle ice cream cone near her mouth. Cute and playful expression.
+```

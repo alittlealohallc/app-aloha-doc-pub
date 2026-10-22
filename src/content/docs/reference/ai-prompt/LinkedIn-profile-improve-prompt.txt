@@ -1,0 +1,9 @@
+# steps to improve LinkedIn profile
+
+1. Download profile
+- profile > More > save to pdf
+2. Open Claude
+- new chat > Sonnet > extended thinking
+3. Ask Claude
+- upload profile pdf
+- use this prompt:

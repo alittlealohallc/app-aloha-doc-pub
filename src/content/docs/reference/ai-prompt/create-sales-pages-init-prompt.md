@@ -1,0 +1,19 @@
+Thank you. Please conform services to new business and marketing plan, and price sheet for Pro Services With A Little Aloha (DBA for A Little Aloha LLC, registered in Utah with EIN and state tax ID) and draft one page sales assets for each offering: 
+- new website with
+  - 1-page, 3 sections
+  - 2-4 pages, multiple sections
+  - 5+ pages, multiple sections
+  - all offerings include:
+    - free domain name and hosting for 1 year, subscription after
+    - free email address and custom domain (with paid DNS domain)
+    - electronic copy of all code
+- run book, document, ghostwriting
+  - one page
+  - two to four pages
+  - five plus pages
+  - graphic or images extra
+- all offerings include free
+  - unlimited edits for one month after delivery date. Subscription required after one month
+  - consultation before, during, after delivery
+  - electronic copy of all code
+  - discount or free for three referrals

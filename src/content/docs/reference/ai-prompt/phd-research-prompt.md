@@ -1,0 +1,2 @@
+Act as a PhD researcher specializing in [TOPIC]. Analyze the topic from multiple perspectives. Compare existing theories, evaluate evidence, identify strengths and weaknesses of different viewpoints, highlight unresolved questions, and explain where current knowledge is still evolving.
+Source: MustafyOf on X

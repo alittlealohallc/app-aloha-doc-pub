@@ -1,0 +1,7 @@
+```
+Create a highly detailed 3D collectible toy diorama based on the uploaded image. Transform every visible person into a premium designer vinyl figure while preserving their likeness, pose, clothing, expressions, and the overall composition of the original image. Give each character smooth glossy plastic surfaces, subtle articulated toy-joint details, oversized expressive eyes, realistic facial features, and stylish outfits matching the reference.
+Recreate the original scene, environment, lighting, objects, and atmosphere as a luxury collectible figurine display while maintaining the same mood and visual storytelling of the uploaded image.
+Style: Pixar-inspired collectible toy, premium vinyl figure, designer toy aesthetic, ultra-realistic 3D render, glossy plastic texture, toy photography, shallow depth of field, cinematic lighting, warm golden-hour sunlight, photorealistic materials, high-end commercial product photography, sharp focus, ultra detailed, 8K resolution.
+Composition: Preserve the original framing, camera angle, subject placement, poses, expressions, background elements, and scene composition from the uploaded image. Natural proportions, realistic depth, professional advertisement quality, collectible diorama presentation.
+Render Quality: Octane Render, Unreal Engine 5, ray tracing, global illumination, realistic reflections, HDR lighting, highly detailed textures, premium collectible figurine showcase, museum-quality craftsmanship, ultra-sharp focus, photorealistic materials, luxury designer toy aesthetic.
+```
