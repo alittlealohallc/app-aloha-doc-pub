@@ -7,7 +7,13 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "check": "astro check",
+    "clean": "rm -rf dist .astro node_modules/.cache",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=app-aloha-doc-pub"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.6",

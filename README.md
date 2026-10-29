@@ -1,49 +1,150 @@
-# Starlight Starter Kit: Basics
+# A Little Aloha LLC Public Documentation Repository
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
+## Quick Start
+
+### Clone Existing Repository
+
+```bash
+# Clone repository
+git clone https://github.com/alittlealohallc/app-aloha-doc-pub.git
+cd app-aloha-doc-pub
+
+# Install dependencies
+npm ci
+
+# Start local development server
+npm run dev
+
 ```
+
+### Create New Starlight Project
+
+```bash
 npm create astro@latest -- --template starlight
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## Development
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+```bash
+# Start development server
+npm run dev
 
+# Preview production build locally
+npm run build
+npm run preview
+
+# Run linter
+npm run lint
+
+# Run TypeScript/Astro type checking
+npm run check
 ```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+
+---
+
+## Deployment
+
+### Via GitHub Actions (Recommended)
+
+Push to main branch triggers automatic deployment:
+
+```bash
+git add .
+git commit -m "Update documentation"
+git push origin main
+Deployment status visible in Actions tab of GitHub repository.
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+### Via CLI (Manual)
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+Requires Wrangler CLI authenticated:
 
-Static assets, like favicons, can be placed in the `public/` directory.
+```bash
+# Authenticate first time
+wrangler login
 
-## 🧞 Commands
+# Deploy manually
+npm run deploy
+```
 
-All commands are run from the root of the project, from a terminal:
+### Via Cloudflare Dashboard
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+1. Navigate to **[Cloudflare Pages](https://pages.cloudflare.com/)**
+2. Select project: `app-aloha-doc-pub`
+3. Trigger new deployment manually
 
-## 👀 Want to learn more?
+---
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+## Environment Variables
+
+Required for production builds:
+
+| Variable | Description | Example |  
+|-----|-------|-------|  
+| `SITE_URL` | Production site URL | `https://pub.alittlealoha.pro` | 
+| `ASTRO_PUBLIC_SITE_URL` | Public-facing URL | `https://pub.alittlealoha.pro` |  
+
+Set in GitHub Actions repository secrets or `.env.production` locally.
+
+### Security Notes
+
+No authentication required. Content is intentionally public.
+
+### Troubleshooting
+
+#### Build Fails in GitHub Actions
+
+Check Node.js version alignment:
+
+```bash
+node --version  # Should be 24.x.x
+```
+
+#### Local Preview Different from Production
+
+Ensure environment variables are set:
+
+```bash
+export SITE_URL=https://llc.alittlealoha.pro
+npm run preview
+```
+
+#### Wrangler Authentication Errors
+
+Re-authenticate and verify permissions:
+
+```bash
+wrangler logout
+wrangler login
+# Ensure token has Pages:Edit and Account:Read scopes
+```
+
+### Maintenance
+
+#### Updating Dependencies
+
+```bash
+npm update
+npm audit fix
+git commit -m "Update dependencies"
+```
+
+#### Clearing Build Cache
+
+```bash
+npm run clean
+npm ci
+npm run build
+```
+
+### License
+
+See [LICENSE](LICENSE) file for details.
+
+_Simple solutions to complex technical problems. Delivered With A Little Aloha._
+
+---
